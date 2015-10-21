@@ -1,0 +1,15 @@
+# KELAS PERSEGI
+
+package Newpackage.Peritungan;
+
+/**
+ *
+ * @author user
+ */
+public class LuasPersegi {
+    int luas;
+    public int luaspersegi(int sisi){ 
+        luas = sisi * sisi;
+        return luas ;
+    }
+}
