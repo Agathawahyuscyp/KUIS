@@ -1,0 +1,39 @@
+# LUAS PERSEGI PANJANG
+
+package newpackage1.view;
+
+import Newpackage.Peritungan.LuasPersegiPanjang;
+
+/**
+ *
+ * @author user
+ */
+public class PersegiPanjang extends javax.swing.JPanel {
+
+    /**
+     * Creates new form PersegiPanjang
+     */
+    public PersegiPanjang() {
+        initComponents();
+    }
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        LuasPersegiPanjang lp = new LuasPersegiPanjang();
+        int panjang = Integer.parseInt(jTextField1.getText());
+        int lebar = Integer.parseInt(jTextField2.getText());
+        int hasil = (int) lp.LuasPersersegiPanjang(panjang, lebar);
+        jLabel3.setText(""+hasil); // TODO add your handling code here:
+    }                                        
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    // End of variables declaration                   
+
+   
+
+
+}
