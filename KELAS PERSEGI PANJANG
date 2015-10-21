@@ -1,0 +1,15 @@
+# KELAS PERSEGI PANNJANG
+
+package Newpackage.Peritungan;
+
+/**
+ *
+ * @author user
+ */
+public class LuasPersegiPanjang {
+    double luas;
+    public double LuasPersersegiPanjang (int panjang, int lebar){
+        luas = panjang * lebar ;
+        return luas ;
+    }
+}
