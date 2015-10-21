@@ -1,0 +1,44 @@
+# LUAS LINGKARAN
+
+package newpackage1.view;
+
+import Newpackage.Peritungan.LuasLingkaran;
+
+/**
+ *
+ * @author user
+ */
+public class Lingkaran extends javax.swing.JPanel {
+
+
+    /**
+     * Creates new form Lingkaran
+     */
+    public Lingkaran() {
+        initComponents();
+    }
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        LuasLingkaran lingkaran = new LuasLingkaran();
+        double jarijari = Double.parseDouble(jTextField1.getText());
+        double hasil = lingkaran.Luaslingkaran(jarijari);
+        jLabel2.setText(""+hasil);
+        
+  // TODO add your handling code here:
+    }                                        
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+        // TODO add your handling code here:
+    }                                           
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JTextField jTextField1;
+    // End of variables declaration                   
+
+
+    
+
+   
+}
